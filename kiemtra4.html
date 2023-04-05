@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiem Tra 4</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px auto;
+    }
+    .wrapper{
+        width: 810px;
+        height: 700px;
+        margin-top: 20px;
+        border:2px solid darkgrey ;
+    }
+    #header{
+        width: 810px;
+        height: 80px;
+    }
+    #header-logo{
+        width: 810px;
+        height: 60px;
+        background-color: #ac4b16;
+        position: relative;
+        line-height: 60px;
+        /* text-align: justify; */
+        font-size: 30px;
+        color: forestgreen;
+        text-shadow: rgb(204, 217, 204) -15px -5px 5px ;
+        font-weight: bold;
+        border-top: 2px solid dimgrey;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        letter-spacing: 4px;
+    
+    }
+    #header-menu {
+        /* display: flex; */
+        width: 810px;
+        
+      
+    }
+    .item{
+        display: inline-block;
+        /* width: 794px; */
+        padding: 10px 30px;
+        /* background-color: #eceef0; */
+        color: #ac4b16;
+    }
+    #imgg{
+        width: 810px;
+        border-top: 6px double darkgrey;
+    }
+    #sign{
+        color: #ac4b16;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    #our{
+        color: darkkhaki;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        padding-top: 10px;
+        text-align: justify;
+        padding-left: 10px;
+        width: 370px;
+    }
+    .content{
+        height: 550px;
+        
+    }
+    #content-left{
+        width: 500px;
+        float: left;
+        border-right: 1px solid gainsboro;
+
+    }
+
+    form input{
+        margin-top: 40px;
+        margin-left: 40px;
+        border: none;
+        border-bottom: 1px solid dimgray;
+        display: block;
+        width: 400px;
+        font-size: 17px
+    }
+    #content-right{
+        margin-top: 40px;
+        float:right;
+        width: 200px;
+        height: 170px;
+        background-color: bisque;
+        padding-left: 45px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-right: 20px;
+    }
+    #links{
+        padding-top: 20px;
+        padding-left: 35px;
+        color: #ac4b16;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        list-style-type: square;
+    }
+    #More{
+        margin-top: 40px;
+        float:right;
+        width: 230px;
+        height: 200px;
+    }
+    #logo-moreinfo{
+        padding-top: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: #ac4b16;
+    }
+    #img-moreinfo{
+        margin-top: 20px;
+        margin-right: 10px;
+        float: left;
+        width: 70px;
+        padding: 10px;
+        border: 1px solid #d7d7d7;
+        ;
+    }
+    #moreinfo{
+        padding-top: 20px;
+        text-align: justify;
+        color: gray;
+    }
+    .signmeup{
+        margin-top:40px ;
+        margin-left: 40px;
+        width: 130px;
+        height: 30px;
+        line-height: 30px;
+        background-color: #808000;
+        border: none;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+    .footer{
+        height: 50px;
+        margin-top: 10px;
+    }
+.Software{
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+}
+.img-footer{
+    width: 810px;
+    height: 41px;
+}
+#text{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: olive;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div id="header-logo">
+                AUTUMN TRAVEL COMPANY
+            </div>
+            <div id="header-menu">
+                <div class="item">Home</div>
+                <div class="item">About</div>
+                <div class="item">Product</div>
+                <div class="item">Services</div>
+                <div class="item">Order</div>
+            </div>
+        </div>
+        <div class="content" >
+            <div id="content-img">
+                <img id="imgg" src="/IMG/header-img.png" alt="">
+                <div id="content-left">
+                    <p id="sign"> <b id="text">Sign up for membership benefits</b> </p>
+                    <p id="our"><i><b> Our philosophical values are transparency, repest, formality and responsibility. Our stimulus is your enthusiasm. Our motto is your satisfaction</b></i> </p>
+                    <form action="">
+                        <input type="text" name="" id="name" placeholder="Username">
+                        <input type="email" name="" id="email" placeholder="E-mail">
+                        <input type="password" name="" id="password" placeholder="Password">
+                        <input type="password" name="" id="Retype" placeholder="Retype password">
+                    </form>
+                    <input class="signmeup" type="submit" value="SIGN ME UP">
+                </div>
+                <div id="content-right">
+                    <div id="right-links">
+                        <h2>Links</h2>
+                        <ul id="links">
+                            <li>Make your Own Tour</li>                          
+                            <li>Maldives Tours</li>
+                            <li>Nature & Adventure</li>
+                            <li>Readymake Tours</li>
+                            <li>Europe Tours</li>
+                            <li>Rusia Tours</li>
+                        </ul>
+                    </div>
+                    <div id="More"> 
+                        <p id="logo-moreinfo"><b>More info</b> </p>
+                        <img id="img-moreinfo" src="/IMG/la.png" alt="">
+                        <p id="moreinfo">Our purpose is the client who gives to us the opportunity to serve and to make know the reality around the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">          
+            <p class="Software">&#169; 2017 Software Engineering Department | Test Date: 16 Sept 2017</p>
+            <img class="img-footer" src="/IMG/Pngtree.png" alt="">
+        </div>
+
+    </div>
+</body>
+</html>
